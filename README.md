@@ -17,3 +17,20 @@ Android 101 is a training material develop in Spanish ..
 4 - Hands-on!
 5 - Recursos y Recomendaciones 
 ```
+
+Demos
+-----
+a) Hello World
+
+b) Where Am I 
+```
+
+# Emular posiciones GPS en el emulador
+# Utilicen una coneccion de Telnet 
+#   telnet localhost <console-port>
+#		geo fix <longitude> <latitude> 
+
+telnet localhost:5554
+geo fix -121.45356 46.51119 4392
+
+```
