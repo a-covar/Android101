@@ -27,10 +27,12 @@ b) Where Am I
 
 # Emular posiciones GPS en el emulador
 # Utilicen una coneccion de Telnet 
-#   telnet localhost <console-port>
-#		geo fix <longitude> <latitude> 
+#   telnet localhost <console-port> or telnet 127.0.0.1 <console-port>
+#   geo fix <longitude> <latitude> 
 
-telnet localhost:5554
+
+
+telnet localhost:5554  |  telnet 127.0.0.1 5554
 geo fix -121.45356 46.51119 4392
 
 ```
