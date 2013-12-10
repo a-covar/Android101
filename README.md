@@ -8,7 +8,7 @@ Android 101 is a training material develop in Spanish ..
 1 - Android antes y ahora
 2 - The Stack
     * Linux
-    * Librer�a Nativas
+    * Librer�a Nativas
     * Dalvik
     * Android y Java
     * Application Framework
@@ -35,4 +35,13 @@ b) Where Am I
 telnet localhost:5554  |  telnet 127.0.0.1 5554
 geo fix -121.45356 46.51119 4392
 
+```
+
+
+Eclipse Shurtocuts 
+```
+Ctrl + Shift + O   -> Organizar Imports
+Ctrl + Shift + F   -> Format Code 
+CTRL + SPACE       -> Auto Complete 
+ALT + ↑ or ↓       -> mover line abajo o arriba
 ```
