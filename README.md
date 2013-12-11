@@ -8,7 +8,7 @@ Android 101 is a training material develop in Spanish ..
 1 - Android antes y ahora
 2 - The Stack
     * Linux
-    * Librer�a Nativas
+    * Libreria Nativas
     * Dalvik
     * Android y Java
     * Application Framework
@@ -24,6 +24,8 @@ a) Hello World
 
 b) Where Am I 
 ```
+#Emulador ver lista posible 
+android list targets
 
 # Emular posiciones GPS en el emulador
 # Utilicen una coneccion de Telnet 
