@@ -1,11 +1,16 @@
 package com.kualia.maps;
 
+import com.google.android.gms.maps.GoogleMap;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
 
+	GoogleMap mMap;
+	
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
