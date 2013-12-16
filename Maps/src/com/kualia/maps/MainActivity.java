@@ -1,8 +1,8 @@
 package com.kualia.maps;
 
-import android.app.Activity;
 import android.app.Dialog;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.widget.Toast;
 
@@ -10,7 +10,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.GoogleMap;
 
-public class MainActivity extends Activity {
+public class MainActivity extends FragmentActivity {
 
 	private static final int GPS_ERRORDIALOG_REQUEST = 9001;
 	GoogleMap mMap;
@@ -19,10 +19,14 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		
 		if (servicesOK()) {
-			Toast.makeText(this, "No problem ", Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "LISTO PARA USER MAP ", Toast.LENGTH_LONG).show();
+			setContentView(R.layout.activity_map);
+		}else{
+			setContentView(R.layout.activity_main);
 		}
+		
 	}
 
 	@Override

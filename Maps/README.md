@@ -16,10 +16,14 @@ Referencias en [developer google](https://developers.google.com/maps/documentati
 
 <permission android:name="com.kualia.maps.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
 	
-	<uses-permission android:name="com.kualia.maps.permission.MAPS_RECEIVE"/>
-	<uses-permission android:name="android.permission.INTERNET"/>
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="com.kualia.maps.permission.MAPS_RECEIVE" />
+   
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 <uses-feature android:glEsVersion="0x00020000"
 	    android:required="true"/>
@@ -64,3 +68,20 @@ En Eclipse File->Import->Android->Existing Android Code into workspace
 ```
 
 En Eclipse seleccionar ezl folder de tu projecto (click derecho) ->Properties -> Android ->Library (Add) = Agregamos la libreria google-play-services-lib
+
+
+My First Map
+----
+
+crear layout -> activity_maps.xml 
+
+```
+ <?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   />
+```
