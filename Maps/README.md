@@ -4,10 +4,12 @@ Google Maps API para android
 Asegurarse que el SDK Manager tengas installado los siguientes paquetes :
 
 1 Android SKD Tools 
+
 2 Google Play Services  for Froyo y Google Play Services
+
 3 SDK Platform API 8 en adelante
 
-
+Referencias en [developer google](https://developers.google.com/maps/documentation/android/start)
 
 ## Android Manifest 
 ```
@@ -39,7 +41,13 @@ Copiar API Key al Manifest
 
 <application>
 ...
- <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="<google key que se genero>"/>
+<meta-data
+    android:name="com.google.android.gms.version"
+    android:value="@integer/google_play_services_version" />
+
+ <meta-data
+    android:name="com.google.android.maps.v2.API_KEY"
+    android:value="API_KEY"/>
 </application>
 
 ```
