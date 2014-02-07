@@ -27,7 +27,7 @@ Este es un ejemplo para usar servicios de Localizacion
 	</ScrollView>
 
 </LinearLayout>
-
+```
 ## WhereAmI.java
 ```
 public class WhereAmIActivity extends Activity implements LocationListener {
@@ -134,5 +134,4 @@ public class WhereAmIActivity extends Activity implements LocationListener {
 
 	</application>
 </manifest>
-
 ```
