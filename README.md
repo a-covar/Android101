@@ -47,3 +47,30 @@ Ctrl + Shift + F   -> Format Code
 CTRL + SPACE       -> Auto Complete 
 ALT + ↑ or ↓       -> mover line abajo o arriba
 ```
+## Installar Android 
+
+```
+Descarga Java SDK
+
+Asegurate de descargar Java SE 6 SDK 
+http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase6-419409.html
+
+Descarga el ADT Bundel en el siguiente link
+
+http://developer.android.com/sdk/index.html
+
+Descomprime el zip y coloca el folder en el directorio de tu preferencia 
+
+Windows 
+	C:\ apps\ android-sdk-windows 
+Linux 
+	/home/ YourUserName/ android-sdk-linux_86 
+Mac OS X 
+	/Users/ YourUserName/ android-sdk-mac_86
+
+agrega a tus variables de path los siguientes folder 
+ 
+ SET PATH=%PATH%;<directorio>/android-sdk/platform-tools/
+ SET PATH=%PATH%;<directorio>/android-sdk/tools/
+
+```
