@@ -70,7 +70,14 @@ Mac OS X
 
 agrega a tus variables de path los siguientes folder 
  
- SET PATH=%PATH%;<directorio>/sdk/platform-tools/
- SET PATH=%PATH%;<directorio>/sdk/tools/
-
+ Para Windows en la linea de coomandos ejecuta las siguientes lineas :
+ 	SET PATH=%PATH%;<directorio>/sdk/platform-tools/
+ 	SET PATH=%PATH%;<directorio>/sdk/tools/
+ 
+ Para Mac and Linux 
+ 	sudo nano /etc/paths 
+ 		agregar en el archivo
+ 			 <directorio>/sdk/platform-tools/
+			 <directorio>/sdk/tools/
+listo
 ```
