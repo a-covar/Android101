@@ -70,7 +70,7 @@ Mac OS X
 
 agrega a tus variables de path los siguientes folder 
  
- SET PATH=%PATH%;<directorio>/android-sdk/platform-tools/
- SET PATH=%PATH%;<directorio>/android-sdk/tools/
+ SET PATH=%PATH%;<directorio>/sdk/platform-tools/
+ SET PATH=%PATH%;<directorio>/sdk/tools/
 
 ```
