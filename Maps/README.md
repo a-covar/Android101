@@ -34,12 +34,15 @@ Crear API Key de Google
 -----
 [https://code.google.com/apis/console](https://code.google.com/apis/console)
 
+
 ```
 Crear un projecto nuevo y nombrarlo igual que el nombre tu projecto de Android , en nuestro caso MapsGoogle
 
 Activar  Google Maps Android API v2
 
-Ir a 'API Access' -> Create New Android Key -> AGREGAR SHA1 fingerprint
+Ir a 'API Access' -> Create New Android Key -> 'AGREGAR SHA1 fingerprint';<nombre del paquete (com.kualia.maps)>
+
+NOTA: En Eclipse vas a Preferencias ->Android ->Build-> SHA1 fingerprint
 
 Copiar API Key al Manifest
 
@@ -67,7 +70,7 @@ En Eclipse File->Import->Android->Existing Android Code into workspace
 	Finish 
 ```
 
-En Eclipse seleccionar ezl folder de tu projecto (click derecho) ->Properties -> Android ->Library (Add) = Agregamos la libreria google-play-services-lib
+En Eclipse seleccionar el folder de tu projecto (click derecho) ->Properties -> Android ->Library (Add) = Agregamos la libreria google-play-services-lib
 
 
 My First Map
@@ -84,4 +87,6 @@ crear layout -> activity_maps.xml
     android:layout_width="match_parent"
     android:layout_height="match_parent"
    />
+   
+   Recerda cambiar  Activty a FragmentActivity
 ```
